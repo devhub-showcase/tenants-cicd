@@ -1,0 +1,6 @@
+build:
+  namespace: avenger-gitops
+
+git:
+  branch: main
+  repo: https://github.com/devhub-showcase/basic-springboot-app.git 
