@@ -1,6 +1,11 @@
-build:
+pipelineBuild:
   namespace: team-a-gitops
 
-git:
+applicationGitRepo:
+  webhookEnabled: false
   branch: main
-  repo: https://github.com/devhub-showcase/basic-springboot-app.git 
+  url: https://github.com/devhub-showcase/basic-springboot-app.git  
+
+tenantCICDRepo:
+  branch: main  
+  url: https://github.com/devhub-showcase/tenants-cicd.git
