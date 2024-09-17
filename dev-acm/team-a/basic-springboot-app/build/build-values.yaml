@@ -7,4 +7,4 @@ applicationRepo:
 
 tenantCICDRepo:
   branch: main  
-  url: https://github.com//.git
+  url: https://github.com/devhub-showcase/tenants-cicd.git
