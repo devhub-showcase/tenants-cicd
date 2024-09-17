@@ -1,10 +1,9 @@
-pipelineBuild:
-  namespace: team-a-gitops
-
-applicationGitRepo:
+applicationRepo:
   webhookEnabled: false
   branch: main
   url: https://github.com/devhub-showcase/basic-springboot-app.git  
+  clusterDeployment: dev-acm
+  teamName: team-a
 
 tenantCICDRepo:
   branch: main  
