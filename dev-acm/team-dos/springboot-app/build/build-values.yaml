@@ -1,0 +1,10 @@
+applicationRepo:
+  webhookEnabled: false
+  branch: main
+  url: https://github.com/devhub-showcase/springboot-app.git
+  clusterDeployment: dev-acm
+  teamName: team-dos
+
+tenantCICDRepo:
+  branch: main  
+  url: https://github.com/devhub-showcase/tenants-cicd.git
