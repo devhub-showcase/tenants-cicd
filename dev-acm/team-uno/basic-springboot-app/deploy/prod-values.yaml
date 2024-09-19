@@ -1,0 +1,4 @@
+image:
+  repository: docker.io/vikaspogu/basic-springboot-app
+  pullPolicy: IfNotPresent
+  tag: ""
