@@ -1,4 +1,4 @@
 image:
-  repository: docker.io/vikaspogu/springboot-app
+  repository: image-registry.openshift-image-registry.svc:5000/team-alpha-dev/springboot-app
   pullPolicy: IfNotPresent
   tag: ""
