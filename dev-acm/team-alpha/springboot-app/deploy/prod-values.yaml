@@ -2,4 +2,4 @@ image:
   repository: image-registry.openshift-image-registry.svc:5000/team-alpha-prod/springboot-app
   pullPolicy: IfNotPresent
   tag: ""
-replicas: 0
+replicaCount: 0
