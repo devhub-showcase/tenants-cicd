@@ -1,4 +1,4 @@
 image:
   repository: quay.io/rhn_gps_vpogu/basic-springboot-app
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: c39ce9a2920057b1b277075e880dae4066da8bc1
